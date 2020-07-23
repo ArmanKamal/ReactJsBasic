@@ -6,8 +6,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
+      <Greet name="Bruce" heoName="Batman">
+        <p>This is children props</p>
+      </Greet>
+      <Greet name="Diana" heroName="SuperWomen"/>
+      <Greet name="John" heroName="SuperMan" />
+      <Welcome name="Diana" heroName="SuperWomen"/>
     </div>
   );
 }
