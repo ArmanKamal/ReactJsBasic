@@ -5,6 +5,7 @@ import React from 'react';
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
 import './App.css';
 
 function App() {
@@ -18,12 +19,14 @@ function App() {
       <Welcome name="Diana" heroName="SuperWomen"/>
       <Message />
       <Counter />
+      <FunctionClick />
+      <ClassClick />
        */
     }
      
       
-      <FunctionClick />
-      <ClassClick />
+
+      <EventBind />
     </div>
   );
 }
