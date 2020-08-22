@@ -4,6 +4,8 @@ import Person from './Person'
 // Why key is needed 
 
 // Because without key react cant compare with old tree so it has to create a new copy... 
+
+// Try to avoid index as a key (Many problems occur)
 function NameList() {
     const persons = [
     {
