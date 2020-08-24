@@ -13,6 +13,7 @@ import React from 'react';
 // import Stylesheet from './components/Stylesheet';
 // import Form from './components/Form'
 import LifecycleA from './components/LifecycleA';
+import Table from './components/Table'
 
 function App() {
   return (
@@ -32,13 +33,13 @@ function App() {
         <UserGreeting />
           <NameList />
            <Stylesheet />
-            <Form />
+            <Form />        
+          <LifecycleA />
        */
     }
   
 
-   
-<LifecycleA />
+<Table />
     
     </div>
   );
